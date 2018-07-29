@@ -22,7 +22,7 @@ var handlers = {
 
     'TellJokeIntent': function () {
         var scope = this;
-        request('https://www.reddit.com/r/UselessFacts.json?limit=1', function(error, response, body){
+        request('https://www.reddit.com/r/dadjokes.json?limit=1', function(error, response, body){
             var resp = JSON.parse(body);
             var jokeTitle = resp.data.children[0].data.title;
             var jokeText = resp.data.children[0].data.selftext;
