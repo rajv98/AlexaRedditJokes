@@ -1,0 +1,47 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "reddit headlines",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TellJokeIntent",
+                    "slots": [],
+                    "samples": [
+                        "read me a joke",
+                        "give me a joke",
+                        "tell me a joke",
+                        "tell a joke"
+                    ]
+                },
+                {
+                    "name": "TellUselessFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell a fact",
+                        "give a fact",
+                        "read me a fact",
+                        "give me a fact",
+                        "tell me a fact"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
